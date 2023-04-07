@@ -5,7 +5,7 @@ const Coins = ()=>{
     return(
     <div className={styles.hero}>
       <Image className={styles.f_coin}
-      src="/F coin.jpg"
+      src="/F Coin.jpg"
       alt="f coin image"
       height= {340}
       width= {340}
