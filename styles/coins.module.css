@@ -1,0 +1,332 @@
+.hero{
+  position: relative;
+  width: 100%;
+  /* width: 1440px; */
+  height: 760px;
+
+  background: #FFFFFF;
+  border-radius: 0px 0px 80px 80px;
+
+  flex: none;
+  order: 2;
+  align-self: stretch;
+  flex-grow: 0;
+}
+.f_coin{
+  position: absolute;
+  width: 340px;
+  height: 340px;
+  right: -19px;
+  /* right: -53px; */
+  top: 1px;
+}
+.arrow_coin{
+  position: absolute;
+  width: 228px;
+  height: 228px;
+  right: 93px;
+  /* right: 69px; */
+  bottom: 147px;
+}
+.percent_coin{
+  position: absolute;
+  width: 220px;
+  height: 220px;
+  left: 119px;
+  bottom: 139px;
+}
+.gold_coin{
+  position: absolute;
+  width: 340px;
+  height: 340px;
+  top: 10px;
+  left: -16px;
+  /* left: 139.6px; */
+  /* top: -9px; */
+    /* position: absolute;
+    width: 248px;
+    height: 248px; */
+    /* left: 139.6px; */
+    /* top: -9px; */
+    /* transform: rotate(48.45deg);  */
+}
+  .frame308{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    gap: 32px;
+    
+    position: absolute;
+    width: 837px;
+    height: 304px;
+    left: calc(50% - 837px/2 - 0.5px);
+    top: calc(50% - 304px/2 - 11px);  
+  }
+  .heading{
+    width: 837px;
+    height: 115px;
+
+    font-family: Futura;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 96px;
+    line-height: 120%;
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #121B64;
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+  }
+  .sub_heading{
+    width: 700px;
+    height: 72px;
+    font-family: 'Futura PT';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 36px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #32302F;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+  }
+  .frame239_2{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 16px;
+    gap: 10px;
+
+    width: 139px;
+    height: 53px;
+
+    background: #121B64;
+    border-radius: 32px;
+
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+    color: #FFFFFF;
+  }
+/* 
+  .text_239{
+    width: 107px;
+    height: 21px;
+    font-family: Futura;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 21px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+  } */
+
+  @media only screen and(max-width: 1024px) {
+    .hero{
+      width: 1024px;
+      height: 760px;
+    
+      flex: none;
+      order: 1;
+      align-self: stretch;
+      flex-grow: 0;
+    }
+    .f_coin{
+      position: absolute;
+      width: 150px;
+      height: 150px;
+      right: 33px;
+      top: 67px;
+    }
+    .arrow_coin{
+      position: absolute;
+      width: 180px;
+      height: 180px;
+      right: 33px;
+      bottom: 165px;
+    }
+    .percent_coin{
+      position: absolute;
+      width: 150px;
+      height: 150px;
+      left: 54px;
+      bottom: 174px;
+    }
+    .gold_coin{
+      position: absolute;
+      width: 150px;
+      height: 150px;
+      left: 99.26px;
+      top: 44px;
+    }
+    .frame308{
+      position: absolute;
+      width: 700px;
+      height: 278px;
+      left: calc(50% - 700px/2 - 0.5px);
+      top: calc(50% - 278px/2 - 11px);
+    }
+    .heading{
+      width: 610px;
+      height: 84px;
+
+      font-size: 70px;
+    }
+    .sub_heading{
+      width: 700px;
+      height: 72px;
+    
+      font-family: 'Futura PT';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 28px;
+      line-height: 36px;
+      display: flex;
+      align-items: center;
+      text-align: center;
+      
+      color: #32302F;
+      
+      flex: none;
+      order: 1;
+      flex-grow: 0;
+    }
+    .frame239_2{
+      width: 166px;
+      height: 58px;
+    }
+    
+  }
+  @media only screen and(max-width: 375px) {
+    .hero{
+      width: 375px;
+      height: 417px;
+     
+      background: #FFFFFF;
+      border-radius: 0px 0px 48px 48px;
+     
+      flex: none;
+      order: 2;
+      flex-grow: 0;
+      
+    }
+    .f_coin{
+      position: absolute;
+      width: 50px;
+      height: 50px;
+      right: 9px;
+      top: 48px;      
+    }
+    .arrow_coin{
+      position: absolute;
+      width: 66px;
+      height: 66px;
+      right: 17px;
+      bottom: 65px;
+    }
+    .percent_coin{
+      position: absolute;
+      width: 72px;
+      height: 72px;
+      left: 14px;
+      bottom: 52px;
+    }
+    .gold_coin{
+      position: absolute;
+      width: 60.72px;
+      height: 60.72px;
+      left: 38.44px;
+      top: 33px;
+    }
+    .frame308{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 0px 24px;
+      gap: 32px;
+      
+      position: absolute;
+      width: 375px;
+      height: 221px;
+      left: 0px;
+      top: 98px;
+    }
+    .heading{
+      width: 327px;
+      height: 41px;
+      
+      font-family: 'Futura PT';
+      font-style: normal;
+      font-weight: 500;
+      font-size: 32px;
+      line-height: 41px;
+     
+      display: flex;
+      align-items: center;
+      text-align: center;
+     
+      color: #121B64;
+      
+      border: 1px solid #000000;
+      text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+     
+      flex: none;
+      order: 0;
+      align-self: stretch;
+      flex-grow: 0;
+    }
+    .sub_heading{
+      width: 327px;
+      height: 63px;
+     
+      font-family: 'Futura PT';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 21px;
+      display: flex;
+      align-items: center;
+      text-align: center;
+     
+      color: #32302F;
+    
+      flex: none;
+      order: 1;
+      align-self: stretch;
+      flex-grow: 0;
+    }
+    .frame239_2{
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      padding: 16px;
+      gap: 10px;
+      
+      width: 139px;
+      height: 53px;
+      
+      background: #121B64;
+      border-radius: 32px;
+     
+      flex: none;
+      order: 2;
+      flex-grow: 0;
+    }
+
+  }

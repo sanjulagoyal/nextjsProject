@@ -1,0 +1,336 @@
+.frame101{
+    box-sizing: border-box;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 100px 72px;
+    gap: 32px;
+    
+    width: 100%;
+    /* width: 1440px; */
+    height: 760px;
+    
+    background: linear-gradient(180deg, #F6F6F6 0%, #FFFFFF 52.6%, #FFFFFF 100%);
+    border-radius: 0px 0px 80px 80px;
+    
+    flex: none;
+    order: 10;
+    flex-grow: 0;
+}
+.frame294{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    gap: 80px;
+    
+    width: 1377px;
+    height: 442px;
+    
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+.frame290{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    gap: 32px;
+    
+    width: 700px;
+    height: 181px;
+  
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+.heading{
+    /* width: 256px; */
+    height: 77px;
+  
+    font-family: 'Futura PT';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 64px;
+    line-height: 120%;
+    
+    margin: 0;
+    
+    display: flex;
+    align-items: center;
+    text-align: center;
+   
+    color: #121B64;
+  
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+.sub_heading{
+    width: 700px;
+    height: 72px;
+   
+    font-family: 'Futura PT';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 36px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    
+    color: #32302F;
+  
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+.frame293{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 32px 242px;
+    gap: 256px;
+    
+    width: 1377px;
+    height: 181px;
+    
+    background: #FFFFFF;
+    
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+}
+.frame315{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    gap: 16px;
+    
+    width: 127px;
+    height: 117px;
+   
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+.youtube{
+    width: 80px;
+    height: 80px;
+    
+    /* background: #FF0000; */
+    border-radius: 16px;
+   
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+.fixed{
+    width: 127px;
+    height: 21px;
+   
+    font-family: 'Futura PT';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 21px;
+   
+    display: flex;
+    align-items: center;
+    text-align: center;
+   
+    color: #686868;
+  
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+.frame316{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    gap: 16px;
+    
+    width: 127px;
+    height: 117px;
+  
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+.frame317{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    gap: 16px;
+    
+    width: 127px;
+    height: 117px;
+  
+    flex: none;
+    order: 2;
+    flex-grow: 0;  
+}
+@media screen and (max-width:1024px) {
+    .frame101{
+        box-sizing: border-box;
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 100px 72px;
+        gap: 32px;
+        
+        width: 1024px;
+        height: 760px;
+        
+        background: linear-gradient(180deg, #F6F6F6 0%, #FFFFFF 52.6%, #FFFFFF 100%);
+        border-radius: 0px 0px 80px 80px;
+       
+        flex: none;
+        order: 9;
+        align-self: stretch;
+        flex-grow: 0;
+    }
+    .frame294{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 0px;
+        gap: 80px;
+        
+        width: 880px;
+        height: 560px;
+    
+        flex: none;
+        order: 0;
+        align-self: stretch;
+        flex-grow: 1;
+    }
+    .frame290{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 0px;
+        gap: 32px;
+        
+        width: 880px;
+        height: 181px;
+       
+        flex: none;
+        order: 0;
+        align-self: stretch;
+        flex-grow: 0;
+    }
+    .heading{
+        /* width: 256px; */
+        height: 77px;
+       
+        font-family: 'Futura PT';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 64px;
+        line-height: 120%;
+        
+        display: flex;
+        align-items: center;
+        text-align: center;
+        
+        color: #121B64;
+      
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+    }
+    .sub_heading{
+        width: 700px;
+        height: 72px;
+       
+        font-family: 'Futura PT';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 28px;
+        line-height: 36px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+       
+        color: #32302F;
+      
+        flex: none;
+        order: 1;
+        flex-grow: 0;
+    }
+    .frame293{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        padding: 32px;
+        gap: 256px;
+        
+        width: 768px;
+        height: 181px;
+        
+        background: #FFFFFF;
+       
+        flex: none;
+        order: 1;
+        flex-grow: 0;
+    }
+    .frame315{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 0px;
+        gap: 16px;
+        
+        width: 127px;
+        height: 117px;
+        
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+    }
+    .frame316{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 0px;
+        gap: 16px;
+        
+        width: 127px;
+        height: 117px;
+     
+        flex: none;
+        order: 1;
+        flex-grow: 0;
+    }
+    .frame317{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 0px;
+        gap: 16px;
+        
+        width: 127px;
+        height: 117px;
+        
+        flex: none;
+        order: 2;
+        flex-grow: 0;
+    }
+}

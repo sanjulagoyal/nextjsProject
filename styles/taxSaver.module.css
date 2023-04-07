@@ -1,0 +1,360 @@
+.hero{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 100px 72px;
+    
+    width: 1440px;
+    height: 760px;
+    
+    background: linear-gradient(180deg, #F6F6F6 0%, #F5FAE7 100%);
+    border-radius: 0px 0px 80px 80px;
+    flex: none;
+    order: 5;
+    flex-grow: 0;
+}
+.frame289{
+    width: 500px;
+    height: 500px;
+    background: #F4F3F3;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+.frame275{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    padding: 0px;
+    gap: 32px;
+    
+    width: 796px;
+    height: 250px;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+.frame274{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    padding: 0px;
+    gap: 24px;
+    
+    width: 700px;
+    height: 250px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+.text{
+    width: 263px;
+    height: 77px;
+    font-family: 'Futura PT';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 64px;
+    line-height: 120%;
+    display: flex;
+    align-items: center;
+    text-align: right;
+    color: #121B64;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+.para{
+    width: 700px;
+    height: 72px;
+    font-family: 'Futura PT';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 36px;
+    display: flex;
+    align-items: center;
+    text-align: right;
+    color: #32302F;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+.frame207{
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 16px;
+    gap: 10px;
+    
+    width: 128px;
+    height: 53px;
+    border: 1px solid #121B64;
+    border-radius: 55px;
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+}
+.save{
+    width: 96px;
+    height: 21px;
+    font-family: 'Futura PT';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 21px;
+    text-align: center;
+    color: #121B64;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+@media screen and (max-width:1024px) {
+    .hero{
+        width: 1024px;
+        height: 537px;
+        
+        background: linear-gradient(180deg, #F6F6F6 0%, #F5FAE7 100%);
+        border-radius: 0px 0px 80px 80px;
+        
+        position: relative;
+        
+        flex: none;
+        order: 4;
+        align-self: stretch;
+        flex-grow: 0;
+    }   
+    .frame274{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-end;
+        padding: 0px;
+        gap: 24px;
+        
+        position: absolute;
+        width: 506px;
+        height: 255px;
+        right: 72px;
+        top: calc(50% - 255px/2 + 0.5px);
+    }
+    .text{
+        width: 263px;
+        height: 77px;
+       
+        font-family: 'Futura PT';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 64px;
+        line-height: 120%;
+       
+        display: flex;
+        align-items: center;
+        text-align: right;
+      
+        color: #121B64;
+      
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+    }
+    .para{
+        width: 506px;
+        height: 72px;
+       
+        font-family: 'Futura PT';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 28px;
+        line-height: 36px;
+        display: flex;
+        align-items: center;
+        text-align: right;
+     
+        color: #32302F;
+     
+        flex: none;
+        order: 1;
+        align-self: stretch;
+        flex-grow: 0;
+    }
+    .frame207{
+        box-sizing: border-box;
+
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        padding: 16px;
+        gap: 10px;
+        
+        width: 152px;
+        height: 58px;
+       
+        border: 1px solid #121B64;
+        border-radius: 55px;
+        
+        flex: none;
+        order: 2;
+        flex-grow: 0;
+    }
+    .save{
+        width: 120px;
+        height: 26px;
+      
+        font-family: 'Futura PT';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 26px;
+       
+        text-align: center;
+      
+        color: #121B64;
+    
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+    }
+    .frame289{
+        position: absolute;
+        left: 5%;
+        right: 60.28%;
+        top: 17.11%;
+        bottom: 17.11%;
+        
+        background: #F4F3F3;
+    }
+}
+@media screen and (max-width:375px){
+    .hero{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 48px 24px;
+        gap: 24px;
+        
+        width: 375px;
+        height: 631px;
+
+        position: relative;
+        
+        background: linear-gradient(180deg, #F6F6F6 0%, #F5FAE7 100%);
+        border-radius: 0px 0px 48px 48px;
+       
+        flex: none;
+        order: 5;
+        flex-grow: 0;
+    }
+    .frame289{
+        width: 327px;
+        height: 327px;
+        position: absolute;
+        
+        background: #DDDDDD;
+       
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+    }
+    .frame274{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 0px;
+        gap: 24px;
+        
+        width: 327px;
+        height: 700px;
+       
+        flex: none;
+        order: 1;
+        align-self: stretch;
+        flex-grow: 0;
+    }
+    .text{
+        width: 327px;
+        height: 41px;
+        
+        font-family: 'Futura PT';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 32px;
+        line-height: 41px;
+
+        margin-left: 95px;
+       
+        display: flex;
+        align-items: center;
+        text-align: center;
+        
+        color: #121B64;
+        
+        flex: none;
+        order: 0;
+        align-self: stretch;
+        flex-grow: 0;
+    }
+    .para{
+        width: 327px;
+        height: 42px;
+        
+        font-family: 'Futura PT';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 21px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        
+        color: #32302F;
+        
+        flex: none;
+        order: 1;
+        align-self: stretch;
+        flex-grow: 0;
+    }
+    .frame207{
+        box-sizing: border-box;
+
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        padding: 16px;
+        gap: 10px;
+        
+        width: 128px;
+        height: 53px;
+        
+       
+        border: 1px solid #121B64;
+        border-radius: 55px;
+       
+        flex: none;
+        order: 2;
+        flex-grow: 0;
+    }
+    .save{
+        /* width: 96px; */
+        height: 21px;
+        
+        font-family: 'Futura PT';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 21px;
+       
+        text-align: center;
+      
+        color: #121B64;
+        
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+    }
+    
+}

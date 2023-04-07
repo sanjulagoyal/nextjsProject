@@ -1,0 +1,359 @@
+.hero{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 100px 72px;
+    gap: 89px;
+    
+    width: 1440px;
+    height: 760px;
+    
+    background: linear-gradient(180deg, #F7F7F7 0%, rgba(255, 255, 255, 0.95) 35.27%);
+    border-radius: 0px 0px 80px 80px;
+    flex: none;
+    order: 4;
+    flex-grow: 0;
+}
+.frame273{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 32px;
+    
+    width: 800px;
+    height: 250px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+.frame289{
+    width: 500px;
+    height: 500px;
+    
+    background: #F4F3F3;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+.frame272{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 24px;
+
+    width: 800px;
+    height: 250px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+.savings{
+    width: 800px;
+    height: 77px;
+    font-family: 'Futura PT';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 64px;
+    line-height: 120%;
+    display: flex;
+    align-items: center;
+    color: #121B64;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+#plus{
+    color: #7E8139;
+}
+.getAccess{
+    width: 700px;
+    height: 72px;
+    font-family: 'Futura PT';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 36px;
+    display: flex;
+    align-items: center;
+    color: #32302F;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+.frame207{
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 16px;
+    gap: 10px;
+    
+    width: 104px;
+    height: 53px;
+    border: 1px solid #121B64;
+    border-radius: 55px;
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+}
+.Save{
+    width: 72px;
+    height: 21px;
+    font-family: 'Futura PT';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 21px;
+    text-align: center;
+    color: #121B64;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+@media only screen and (max-width: 1024px){
+    .hero{
+        width: 1024px;
+        height: 540px;
+        
+        background: linear-gradient(180deg, #F7F7F7 0%, rgba(255, 255, 255, 0.95) 35.27%);
+        border-radius: 0px 0px 80px 80px;
+       
+        position: relative;
+        
+        flex: none;
+        order: 3;
+        align-self: stretch;
+        flex-grow: 0;
+    }
+    .frame289{
+        position: absolute;
+        left: 58.2%;
+        right: 7.07%;
+        top: 17.11%;
+        bottom: 17.11%;
+        
+        background: #F4F3F3;
+    }
+    .frame272{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 0px;
+        gap: 24px;
+        
+        position: absolute;
+        width: 485px;
+        height: 291px;
+        left: 72px;
+        top: calc(50% - 291px/2);        
+    }
+    .savings{
+        width: 800px;
+        height: 77px;
+       
+        font-family: 'Futura PT';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 64px;
+        line-height: 120%;
+        
+        display: flex;
+        align-items: center;
+       
+        color: #121B64;
+      
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+    }
+    .getAccess{
+        width: 485px;
+        height: 108px;
+      
+        font-family: 'Futura PT';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 28px;
+        line-height: 36px;
+        display: flex;
+        align-items: center;
+       
+        color: #32302F;
+      
+        flex: none;
+        order: 1;
+        align-self: stretch;
+        flex-grow: 0;
+    }
+    .frame207{
+        box-sizing: border-box;
+
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        padding: 16px;
+        gap: 10px;
+        
+        width: 122px;
+        height: 58px;
+     
+        border: 1px solid #121B64;
+        border-radius: 55px;
+       
+        flex: none;
+        order: 2;
+        flex-grow: 0;
+    }
+    .Save{
+        width: 90px;
+        height: 26px;
+        
+        font-family: 'Futura PT';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 26px;
+       
+        text-align: center;
+      
+        color: #121B64;
+      
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+    }
+
+}
+@media only screen and (max-width:375px){
+    .hero{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 48px 24px;
+        gap: 24px;
+        position: relative;
+        width: 375px;
+        height: 631px;
+        
+        background: linear-gradient(180deg, #F7F7F7 0%, rgba(255, 255, 255, 0.95) 35.27%);
+        border-radius: 0px 0px 48px 48px;
+       
+        flex: none;
+        order: 4;
+        flex-grow: 0;
+    }
+    .frame289{
+        width: 327px;
+        height: 327px;
+
+        margin-left: -240px;
+        
+        background: #DDDDDD;
+       
+        flex: none;
+        order: 0;
+        flex-grow: 0
+    }
+    .frame272{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 0px;
+        gap: 24px;
+        
+        width: 327px;
+        height: 711px;
+        
+        position: absolute;
+        
+        flex: none;
+        order: 1;
+        align-self: stretch;
+        flex-grow: 0;
+    }
+    .savings{
+        width: 327px;
+        height: 41px;
+        
+        font-family: 'Futura PT';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 32px;
+        line-height: 41px;
+
+        margin-left: 56px;
+        
+        display: flex;
+        align-items: center;
+        text-align: center;
+       
+        color: #121B64;
+       
+        flex: none;
+        order: 0;
+        align-self: stretch;
+        flex-grow: 0;
+    }
+    .getAccess{
+        width: 327px;
+        height: 42px;
+        
+        font-family: 'Futura PT';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 21px;
+        display: flex;
+        align-items: center;
+        margin-left: -42px;
+        color: #32302F;
+       
+        flex: none;
+        order: 1;
+        align-self: stretch;
+        flex-grow: 0;
+    }
+    .frame207{
+        box-sizing: border-box;
+
+        
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        padding: 16px;
+        gap: 10px;
+        
+        width: 104px;
+        height: 53px;
+        margin-left: -115px;
+        border: 1px solid #121B64;
+        border-radius: 55px;
+       
+        flex: none;
+        order: 2;
+        flex-grow: 0;
+    }
+    .Save{
+        width: 72px;
+        height: 21px;
+       
+        font-family: 'Futura PT';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 21px;
+        
+        text-align: center;
+        
+        color: #121B64;
+       
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+    }
+}

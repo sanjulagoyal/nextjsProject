@@ -1,0 +1,341 @@
+.hero{
+    /* left: 0px;
+    top: 892px; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 100px 72px;
+    
+    width: 1440px;
+    height: 760px;
+    /* background: #000; */
+    background: linear-gradient(180deg, #F6F6F6 0%, #F5FAE7 100%);
+    border-radius: 0px 0px 80px 80px; 
+    flex: none;
+    order: 3;
+    flex-grow: 0;
+}
+.frame289{
+    width: 500px;
+    height: 500px;
+    
+    background: #F4F3F3;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+.frame271{
+    /* left: 568px;
+    top: 255px;
+    border-radius: 0px; */
+    
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    padding: 0px;
+    gap: 32px;
+    
+    width: 800px;
+    height: 250px;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+.frame270{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    padding: 0px;
+    gap: 24px;
+    
+    width: 800px;
+    height: 250px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+.FD{
+    /* width: 800px; */
+    height: 77px;
+    font-family: 'Futura PT';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 64px;
+    line-height: 120%;
+    display: flex;
+    align-items: center;
+    text-align: right;
+    color: #121B64;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+.korem{
+    width: 700px;
+    height: 72px;
+
+    font-family: 'Futura PT';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 36px;
+    display: flex;
+    align-items: center;
+    text-align: right;
+
+    color: #32302F; 
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+.button_div{
+    box-sizing: border-box;
+
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 16px;
+    gap: 10px;
+
+    /* width: 113px; */
+    height: 53px;
+
+    border: 1px solid #121B64;
+    border-radius: 55px; 
+    
+    flex: none;
+    order: 2;
+}
+.Button{
+    /* width: 81px; */
+    height: 21px;
+
+    font-family: 'Futura PT';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 21px;
+    text-align: center;
+
+    color: #121B64;
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+@media only screen and (max-width:1024px){
+    .hero{
+        width: 1024px;
+        height: 540px;
+
+        position: relative;
+
+        background: linear-gradient(180deg, #F6F6F6 0%, #F5FAE7 100%);
+        border-radius: 0px 0px 80px 80px;
+      
+        flex: none;
+        order: 2;
+        align-self: stretch;
+        flex-grow: 0;
+    }
+    .frame270{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        padding: 0px;
+        gap: 24px;
+        
+        position: absolute;
+        width: 485px;
+        height: 291px;
+        right: 72px;
+        top: 145px;
+    }
+    .frame289{
+        position: absolute;
+        left: 7.03%;
+        right: 58.25%;
+        top: 17.11%;
+        bottom: 17.11%;
+        
+        background: #F4F3F3;
+    }
+    .korem{
+        width: 485px;
+        height: 108px;
+     
+        flex: none;
+        order: 1;
+        align-self: stretch;
+        flex-grow: 0;
+    }
+   .button_div{
+    box-sizing: border-box;
+
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 16px;
+    gap: 10px;
+    
+    width: 133px;
+    height: 58px;
+ 
+    border: 1px solid #121B64;
+    border-radius: 55px;
+   
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+   }   
+   .Button{
+    /* width: 101px; */
+    height: 26px;
+   
+    font-family: 'Futura PT';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 26px;
+   
+    text-align: center;
+   
+    color: #121B64;
+   
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+   }
+}
+@media only screen and (max-width:375px){
+    .hero{
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        padding: 48px 24px;
+        gap: 24px;
+        
+        width: 375px;
+        height: 652px;
+        
+        background: linear-gradient(180deg, #F6F6F6 0%, #F5FAE7 100%);
+        border-radius: 0px 0px 48px 48px;
+       
+        flex: none;
+        order: 3;
+        flex-grow: 0;
+    }
+    .frame289{
+        position: absolute;
+        width: 327px;
+        height: 327px;
+        
+        background: #DDDDDD;
+        
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+    }
+    .frame270{
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 0px;
+        gap: 24px;
+        
+        width: 327px;
+        height: 926px;
+       
+        flex: none;
+        order: 1;
+        align-self: stretch;
+        flex-grow: 0;
+    }
+    .FD{
+        width: 327px;
+        height: 41px;
+        
+        font-family: 'Futura PT';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 32px;
+        line-height: 41px;
+        
+        display: flex;
+        align-items: center;
+        text-align: center;
+        
+        color: #121B64;
+
+        margin-left: 105px;
+       
+        flex: none;
+        order: 0;
+        align-self: stretch;
+        flex-grow: 0;
+    }
+    .korem{
+        width: 327px;
+        height: 63px;
+       
+        font-family: 'Futura PT';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 21px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+       
+        color: #32302F;
+        
+        flex: none;
+        order: 1;
+        align-self: stretch;
+        flex-grow: 0;
+    }
+    .button_div{
+        box-sizing: border-box;
+
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        padding: 16px;
+        gap: 10px;
+        
+        width: 113px;
+        height: 53px;
+        
+        border: 1px solid #121B64;
+        border-radius: 55px;
+        
+        flex: none;
+        order: 2;
+        flex-grow: 0;
+    }
+    .Button{
+        /* width: 81px; */
+        height: 21px;
+        
+        font-family: 'Futura PT';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 21px;
+       
+        text-align: center;
+       
+        color: #121B64;
+      
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+    }
+}
