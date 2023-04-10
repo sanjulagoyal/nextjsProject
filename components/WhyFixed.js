@@ -22,7 +22,7 @@ const WhyFixed = ()=>{
                         border-radius= {0}
                         
                         />
-                        <p className={styles.paraSafe}>Safe investments that beat inflation</p>
+                        <h2 className={styles.paraSafe}>Safe investments that beat inflation</h2>
                     </div>
                     <hr className={styles.line}></hr>
                     <p className={styles.txt1}>Low risk, High return investments that are easy to understand</p>
@@ -38,7 +38,7 @@ const WhyFixed = ()=>{
                         top= {8}
                         border-radius= {0}
                         /> 
-                        <p className={styles.paraSafe}>Safe investments that protect capital</p>
+                        <h2 className={styles.paraSafe}>Safe investments that protect capital</h2>
                     </div>
                     <hr className={styles.line}></hr>
                     <p className={styles.txt1}>Get access to stable and low risk investment options for goals where you cannot afford losses</p>
@@ -55,7 +55,7 @@ const WhyFixed = ()=>{
                         border-radius= {0}  
                         />
                         
-                        <p className={styles.paraSafe}>Liquid investments to manage emergencies</p>
+                        <h2 className={styles.paraSafe}>Liquid investments to manage emergencies</h2>
                     </div>
                     <hr className={styles.line}></hr>
                     <p className={styles.txt1}>Choose across investments that you can easily withdraw and liquidate in times of need</p>

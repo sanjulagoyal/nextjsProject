@@ -184,8 +184,7 @@ const Team = () => {
                     </div>
                 </div>
             </div>
-            <div className={styles.frame338}></div>
-            <div className={styles.frame337}></div>
+
         </div>
     )
 }

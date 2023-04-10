@@ -4,13 +4,11 @@ import styles from "../styles/coins.module.css"
 const Coins = ()=>{
     return(
     <div className={styles.hero}>
-      <Image className={styles.f_coin}
+      <img className={styles.f_coin}
       src="/F Coin.jpg"
       alt="f coin image"
       height= {340}
       width= {340}
-      left= {1153}
-      top= {1}
       />
 
       <Image className={styles.arrow_coin}

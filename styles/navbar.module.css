@@ -3,10 +3,11 @@
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  padding: 0px 72px;
+  /* padding: 0px 72px; */
   gap: 359px;
   
-  width: 1440px;
+  /* width: 1440px; */
+  width: 100%;
   height: 80px;
   
   background: #FFFFFF;
@@ -18,6 +19,7 @@
 }
   
   .fixed_logo{
+    margin-left: 72px;
     flex: none;
     order: 0;
     flex-grow: 0;
@@ -30,6 +32,8 @@
   align-items: center;
   padding: 0px;
   
+  margin-left: 50px;
+
   width: 296px;
   height: 80px;
  
@@ -162,6 +166,7 @@
     width: 196px;
     border-radius: 32px;
     /* padding: 10px 16px ; */
+    margin-right: 72px;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -189,7 +194,7 @@
     flex-grow: 0;
   }
 
-@media only screen and(max-width: 1024px) {
+@media only screen and (max-width: 1024px) {
   .navbar{
     width: 1024px;
     height: 70px;

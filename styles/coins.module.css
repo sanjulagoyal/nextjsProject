@@ -1,5 +1,6 @@
 .hero{
   position: relative;
+
   width: 100%;
   /* width: 1440px; */
   height: 760px;
@@ -16,9 +17,8 @@
   position: absolute;
   width: 340px;
   height: 340px;
-  right: -19px;
-  /* right: -53px; */
   top: 1px;
+  right: -2px;
 }
 .arrow_coin{
   position: absolute;
@@ -64,7 +64,7 @@
     top: calc(50% - 304px/2 - 11px);  
   }
   .heading{
-    width: 837px;
+    /* width: 837px; */
     height: 115px;
 
     font-family: Futura;
@@ -136,7 +136,7 @@
     flex-grow: 0;
   } */
 
-  @media only screen and(max-width: 1024px) {
+  @media only screen and (max-width: 1024px) {
     .hero{
       width: 1024px;
       height: 760px;
@@ -212,7 +212,7 @@
     }
     
   }
-  @media only screen and(max-width: 375px) {
+  @media only screen and (max-width: 375px) {
     .hero{
       width: 375px;
       height: 417px;

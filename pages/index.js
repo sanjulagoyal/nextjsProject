@@ -15,22 +15,20 @@ import Footer from "@/components/Footer";
 
 const index = ()=>{
   return (
-    // <div className="desktop">
       <>
       <Navbar />
       <Announcement />
       <Coins />
-      <FdBazaar />
+      <FdBazaar /> 
       <Savings />
       <TaxSaver />
       <WhyFixed />
-      <Insights />
+      <Insights /> 
       <Team />
       <Press />
       <FollowUs />
       <Investing />
       <Footer />
-    {/* //  </div> */}
     </>
   )
 }
