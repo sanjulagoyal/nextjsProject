@@ -442,24 +442,68 @@
 }
 @media screen and (max-width:1024px) {
     .frame99{
-
-        box-sizing: border-box;
-
         display: flex;
         flex-direction: column;
         align-items: center;
-        padding: 64px 72px;
+        /* padding: 64px 72px; */
         gap: 32px;
         
-        width: 1024px;
+        width: 100%;
         height: 579px;
-      
-        background: #121B64;
-       
-        flex: none;
+
         order: 11;
+        align-self: stretch;
+    }
+    .frame104{
+        position: static;
+        margin: 64px 830px 354px 72px;
+
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+    }
+    .frame105{
+        position: static;
+        margin: -550px 557.5px 322px 337.5px;
+        flex: none;
+        order: 1;
+        flex-grow: 0;
+    }
+    .frame107{
+        position: static;
+        margin: -550px 72px 0px 610px;
+        flex: none;
+        order: 2;
+        flex-grow: 0;
+    }
+    .frame109{
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+        margin: 180px 610px 152px -13px;
+    }
+    .line{
+        width: 880px;
+        margin-left: 200px;
+      
+        flex: none;
+        order: 2;
         align-self: stretch;
         flex-grow: 0;
     }
-    
+    .copyright{
+        height: 18px;
+        
+        font-family: 'Futura PT';
+        line-height: 18px;
+
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+    }
+    .frame101{
+        flex: none;
+        order: 1;
+        flex-grow: 0;
+    }
 }
