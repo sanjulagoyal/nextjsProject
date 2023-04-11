@@ -42,9 +42,14 @@ const Navbar = ()=>{
           </div>
       </div>
       <div className={styles.frame239}>
-        <div className={styles.best_investment}>Best Investment Options
-        </div>
+        <div className={styles.best_investment}>Best Investment Options</div>
       </div>  
+      <Image className={styles.menu}
+      src="/Menu.jpg"
+      alt="menu icon"
+      height= {48}
+      width= {48}
+      />
       </nav>
     )
 }

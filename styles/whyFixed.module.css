@@ -2,7 +2,6 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    /* padding: 100px 72px; */
     gap: 32px;
     
     width: 100%;
@@ -244,241 +243,59 @@
 
 @media screen and (max-width:1024px) {
     .hero{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        padding: 100px 72px;
-        gap: 10px;
-        
-        width: 1024px;
         height: 1061px;
-        
-        background: linear-gradient(180deg, #F6F6F6 0%, #FFFFFF 31.23%);
-        border-radius: 0px 0px 80px 80px;
-        
         position: relative;
-        
-        flex: none;
-        order: 5;
-        align-self: stretch;
-        flex-grow: 0;
+        margin-bottom: 100px;
     }
     .frame288{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        padding: 0px;
-        gap: 80px;
-        
         width: 880px;
         height: 861px;
+        margin: 100px 72px;
       
-        flex: none;
-        order: 0;
         align-self: stretch;
-        flex-grow: 0;
     }
-    .frame285{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        padding: 0px;
-        /* gap: 32px; */
-        
+    .frame285{        
         width: 700px;
         height: 181px;
-      
-        flex: none;
-        order: 0;
-        flex-grow: 0;
+        margin-top: -100px;
     }
-    
     .text{
-        width: 340px;
-        height: 77px;
-        
-        font-family: 'Futura PT';
-        font-style: normal;
-        font-weight: 500;
-        font-size: 64px;
-        line-height: 120%;
-       
         margin-bottom: 0px;
-        
-        display: flex;
-        align-items: center;
-        text-align: right;
-       
-        color: #121B64;
-      
-        flex: none;
-        order: 0;
-        flex-grow: 0;
-    }
-    .para{
-        width: 700px;
-        height: 72px;
-       
-        font-family: 'Futura PT';
-        font-style: normal;
-        font-weight: 400;
-        font-size: 28px;
-        line-height: 36px;
-        display: flex;
-        align-items: center;
-        text-align: center;
-     
-        color: #32302F;
-   
-        flex: none;
-        order: 1;
-        flex-grow: 0;
     }
     .frame280{
-        display: flex;
         flex-direction: column;
-        align-items: flex-start;
-        padding: 0px;
-        gap: 24px;
+        margin-top: 85px;
         
         width: 773px;
         height: 600px;
-     
-        flex: none;
-        order: 1;
-        flex-grow: 0;
     }
     .frame277{
-        display: flex;
-        flex-direction: column;
-        align-items: flex-start;
-        padding: 24px 16px;
-        gap: 24px;
-        
         width: 773px;
         height: 184px;
-        
-        background: #FFFFFF;
-        box-shadow: 0px 18px 50px -10px rgba(0, 0, 0, 0.2);
-        border-radius: 12px;
-     
-        flex: none;
-        order: 0;
-        align-self: stretch;
-        flex-grow: 0;
     }
     .frame281{
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        align-items: center;
-        padding: 0px;
-        gap: 20px;
-        
         width: 741px;
         height: 56px;
-    
-        flex: none;
-        order: 0;
-        align-self: stretch;
-        flex-grow: 0;
-    }
-    .frame282{
-        width: 56px;
-        height: 56px;
-      
-        flex: none;
-        order: 0;
-        flex-grow: 0;
     }
     .paraSafe{
         width: 665px;
         height: 36px;
-       
-        font-family: 'Futura PT';
-        font-style: normal;
-        font-weight: 500;
-        font-size: 28px;
-        line-height: 36px;
-       
-        display: flex;
-        align-items: center;
-      
-        color: #32302F;
-     
-        flex: none;
-        order: 1;
-        flex-grow: 1;
     }
     .line{
         width: 741px;
         height: 0px;
-      
-        border: 1px solid #DFDEDE;
-      
-        flex: none;
-        order: 1;
-        align-self: stretch;
-        flex-grow: 0;
     }
     .txt1{
         width: 741px;
         height: 26px;
-       
-        font-family: 'Futura PT';
-        font-style: normal;
-        font-weight: 400;
-        font-size: 20px;
-        line-height: 26px;
-        
-        display: flex;
-        align-items: center;
-       
-        color: #32302F;
-       
-        flex: none;
-        order: 2;
-        align-self: stretch;
-        flex-grow: 0;
     }
     .frame278{
-        display: flex;
-        flex-direction: column;
-        align-items: flex-start;
-        padding: 24px 16px;
-        gap: 24px;
-        
         width: 773px;
         height: 184px;
-        
-        background: #FFFFFF;
-        box-shadow: 0px 18px 50px -10px rgba(0, 0, 0, 0.2);
-        border-radius: 12px;
-     
-        flex: none;
-        order: 1;
-        align-self: stretch;
-        flex-grow: 0;
     }
     .frame279{
-        display: flex;
-        flex-direction: column;
-        align-items: flex-start;
-        padding: 24px 16px;
-        gap: 24px;
-        
         width: 773px;
         height: 184px;
-        
-        background: #FFFFFF;
-        box-shadow: 0px 18px 50px -10px rgba(0, 0, 0, 0.2);
-        border-radius: 12px;
-       
-        flex: none;
-        order: 2;
-        align-self: stretch;
-        flex-grow: 0;
     }
 
 }

@@ -161,115 +161,32 @@
 }
 @media screen and (max-width:1024px) {
     .frame100{
-        box-sizing: border-box;
-
-        display: flex;
-        flex-direction: column;
         justify-content: center;
-        align-items: center;
-        padding: 100px 72px;
-        gap: 32px;
 
-        /* position: relative; */
-        
-        width: 1024px;
+        width: 100%;
         height: 600px;
-        
-        background: linear-gradient(180deg, #F6F6F6 0%, #FFFFFF 17.24%, #FFFFFF 100%);
-        border-radius: 0px 0px 80px 80px;
-       
-        flex: none;
+
         order: 8;
         align-self: stretch;
-        flex-grow: 0;
     }    
     .frame294{
-        display: flex;
-        flex-direction: column;
         justify-content: space-between;
-        align-items: center;
-        padding: 0px;
-        gap: 80px;
         
         width: 880px;
         height: 400px;
-     
-        flex: none;
-        order: 0;
+        
         align-self: stretch;
         flex-grow: 1;
     }
-    .frame290{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        padding: 0px;
-        gap: 32px;
-        
-        width: 700px;
-        height: 181px;
-   
-        flex: none;
-        order: 0;
-        flex-grow: 0;
-    }
-    .heading{
-        width: 309px;
-        height: 77px;
-      
-        font-family: 'Futura PT';
-        font-style: normal;
-        font-weight: 500;
-        font-size: 64px;
-        line-height: 120%;
-        
-        display: flex;
-        align-items: center;
-        text-align: center;
-      
-        color: #121B64;
-      
-        flex: none;
-        order: 0;
-        flex-grow: 0;
-    }
-    .subHeading{
-        width: 700px;
-        height: 72px;
-       
-        font-family: 'Futura PT';
-        font-style: normal;
-        font-weight: 400;
-        font-size: 28px;
-        line-height: 36px;
-        display: flex;
-        align-items: center;
-        text-align: center;
-      
-        color: #32302F;
-    
-        flex: none;
-        order: 1;
-        flex-grow: 0;
-    }
-
     .frame293{
         width: 880px;
         height: 170px;
      
-        flex: none;
-        order: 1;
         align-self: stretch;
-        flex-grow: 0;
     }
     .frame298{
-        display: flex;
-        flex-direction: row;
-        align-items: flex-start;
-        padding: 0px;
         gap: 66.42px;
-        
-        position: relative;
+
         width: 880px;
         height: 124.53px;
         left: 0px;
@@ -278,15 +195,9 @@
     .frame295{
         width: 249.06px;
         height: 124.53px;
-        
-        background: #FFFFFF;
-       
-        flex: none;
-        order: 0;
-        flex-grow: 0;
     }
     .yourstory{
-        position: absolute;
+        /* position: absolute; */
         width: 236.6px;
         height: 84.68px;
         left: 5.81px;
@@ -295,15 +206,9 @@
     .frame296{
         width: 249.06px;
         height: 124.53px;
-        
-        background: #FFFFFF;
-      
-        flex: none;
-        order: 1;
-        flex-grow: 0;
     }
     .news18{
-        position: absolute;
+        /* position: absolute; */
         width: 239.92px;
         height: 96.3px;
         left: 4.15px;
@@ -312,15 +217,9 @@
     .frame297{
         width: 249.06px;
         height: 124.53px;
-        
-        background: #FFFFFF;
-       
-        flex: none;
-        order: 2;
-        flex-grow: 0;
     }
     .liveMint{
-        position: absolute;
+        /* position: absolute; */
         width: 254.04px;
         height: 78.04px;
         left: -2.49px;

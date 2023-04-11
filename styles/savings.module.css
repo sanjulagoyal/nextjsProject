@@ -119,7 +119,7 @@
 }
 @media only screen and (max-width: 1024px){
     .hero{
-        width: 1024px;
+        width: 100%;
         height: 540px;
         
         background: linear-gradient(180deg, #F7F7F7 0%, rgba(255, 255, 255, 0.95) 35.27%);
@@ -134,10 +134,9 @@
     }
     .frame289{
         position: absolute;
-        left: 58.2%;
-        right: 7.07%;
-        top: 17.11%;
-        bottom: 17.11%;
+        margin: 92.37px 72.4px 92.37px 596px;
+        width: 355.56px;
+        height: 355.26px;
         
         background: #F4F3F3;
     }

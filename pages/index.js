@@ -28,7 +28,7 @@ const index = ()=>{
       <Press />
       <FollowUs />
       <Investing />
-      <Footer />
+      {/* <Footer /> */}
     </>
   )
 }
