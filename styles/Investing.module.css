@@ -129,3 +129,37 @@
         margin: 0;
     }
 }
+@media screen and (max-width:375px) {
+    .frame102{
+        width: 100%;
+        height: 317px;
+        order: 11;
+        padding: 0;
+    }
+    .frame294{
+        justify-content: center;
+        width: 327px;
+        height: 221px;
+    }
+    .heading{
+        width: 327px;
+        height: 41px;
+        font-size: 32px;
+        line-height: 41px;
+        justify-content: center;
+        margin-bottom: -2px;
+    }
+    .para{
+        width: 327px;
+        height: 63px;
+        font-size: 16px;
+        line-height: 21px;
+        margin: 0;
+    }
+    .frame239{
+        width: 110px;
+        height: 53px;
+        border-radius: 32px;
+        padding: 0;
+    }
+}

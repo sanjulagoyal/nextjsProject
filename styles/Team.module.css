@@ -424,3 +424,134 @@
         flex-grow: 0;
     }
 }
+@media  only screen and (max-width: 375px){
+    .hero{
+        flex-direction: row;
+        align-items: flex-start;
+        /* padding: 48px 24px; */
+        gap: 10px;
+
+        height: 1046px;
+    }  
+    .frame292{
+        gap: 32px;
+        margin: 48px 24px;
+        
+        width: 327px;
+        height: 950px;
+    } 
+    .frame291{
+        width: 327px;
+        height: 136px;
+    }
+    .frame261{
+        gap: 16px;
+        
+        width: 327px;
+        height: 782px;
+    }
+    .heading{
+        width: 197px;
+        height: 41px;
+        margin-top: -10px;
+        
+        font-size: 32px;
+        line-height: 41px;
+    }
+    .sub_heading{
+        width: 327px;
+        height: 63px;
+        margin-top: 36px;
+        font-size: 16px;
+        line-height: 21px;
+    }
+    .frame262{
+        width: 327px;
+        height: 183.5px;
+    }
+    .frame260{
+        flex-direction: column;
+        align-items: center;
+        
+        width: 327px;
+        height: 582.5px;
+    }
+    .frame259{
+        width: 0;
+        height: 0;
+    }
+    .frame256{
+        width: 156px;
+        height: 183.5px;
+        flex-grow: 0;
+    }
+    .person1,#person5,#person6{
+        width: 155.5px;
+        height: 124.5px;
+        left: 0px;
+        top: 0px;       
+        flex-grow: 0; 
+    }
+    .frame255{
+        align-items: flex-start;
+        padding: 8px;
+        gap: 4px;
+        
+        /* position: absolute; */
+        width: 155.5px;
+        height: 59px;
+        left: 0px;
+        top: 124.5px;
+    }
+    .frame257{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 0px;
+        margin-top: -18px;
+        /* gap: 4px; */
+        
+        width: 99px;
+        height: 43px;
+    }
+    .para{
+        height: 18px;
+        font-size: 14px;
+        line-height: 18px;
+    }
+    .linkedIn,#ln5,#ln6{
+        width: 16px;
+        height: 16px;
+        align-items: unset;
+        padding: 8px;
+    }
+    .frameText{
+        width: 171px;
+        height: 183.5px;
+    }
+    .quotes{
+        position: absolute;
+        width: 16px;
+        height: 16px;
+        top: 23px;
+        left: 164px;
+    }
+    .content{
+        position: absolute;
+        width: 139px;
+        height: 105px;
+        left: 180px;
+        top: 39px;
+        font-size: 16px;
+        line-height: 21px;
+    }
+    .quotes2{
+        position: absolute;
+        width: 16px;
+        height: 16px;
+        right: -8px;
+        bottom: 19.5px;
+        top: 147px;
+        left: 304px;    
+    }
+}

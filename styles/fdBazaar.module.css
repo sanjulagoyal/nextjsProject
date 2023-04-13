@@ -214,130 +214,55 @@
 @media only screen and (max-width:375px){
     .hero{
         position: relative;
-        display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: flex-start;
-        padding: 48px 24px;
-        gap: 24px;
         
-        width: 375px;
         height: 652px;
-        
-        background: linear-gradient(180deg, #F6F6F6 0%, #F5FAE7 100%);
-        border-radius: 0px 0px 48px 48px;
-       
-        flex: none;
-        order: 3;
-        flex-grow: 0;
     }
     .frame289{
         position: absolute;
         width: 327px;
         height: 327px;
-        margin: 0;
-        
-        background: #DDDDDD;
-        
-        flex: none;
-        order: 0;
-        flex-grow: 0;
+
+        margin: 48px 24px 277px 16px;
     }
     .frame270{
         position: absolute;
-        display: flex;
-        flex-direction: column;
         justify-content: center;
         align-items: center;
-        padding: 0px;
-        gap: 24px;
-        
+        margin: 254px -60px 48px 24px;
+
         width: 327px;
-        height: 926px;
+        height: 205px;
        
-        flex: none;
         order: 1;
         align-self: stretch;
-        flex-grow: 0;
+        
+    }
+    .frame271{
+        width: 0px;
+        margin: 0px;
+        padding: 0;
+        gap: 0px;
     }
     .FD{
-        width: 327px;
+        /* width: 327px; */
         height: 41px;
-        
-        font-family: 'Futura PT';
-        font-style: normal;
-        font-weight: 500;
+
         font-size: 32px;
         line-height: 41px;
         
-        display: flex;
-        align-items: center;
         text-align: center;
-        
-        color: #121B64;
-
-        margin-left: 105px;
-       
-        flex: none;
-        order: 0;
-        align-self: stretch;
-        flex-grow: 0;
     }
     .korem{
         width: 327px;
         height: 63px;
-       
-        font-family: 'Futura PT';
-        font-style: normal;
-        font-weight: 400;
-        font-size: 16px;
-        line-height: 21px;
-        display: flex;
-        align-items: center;
-        text-align: center;
-       
-        color: #32302F;
-        
-        flex: none;
-        order: 1;
-        align-self: stretch;
-        flex-grow: 0;
-    }
-    .button_div{
-        box-sizing: border-box;
 
-        display: flex;
-        flex-direction: row;
-        align-items: flex-start;
-        padding: 16px;
-        gap: 10px;
-        
-        width: 113px;
-        height: 53px;
-        
-        border: 1px solid #121B64;
-        border-radius: 55px;
-        
-        flex: none;
-        order: 2;
-        flex-grow: 0;
-    }
-    .Button{
-        /* width: 81px; */
-        height: 21px;
-        
-        font-family: 'Futura PT';
-        font-style: normal;
-        font-weight: 500;
         font-size: 16px;
         line-height: 21px;
-       
         text-align: center;
-       
-        color: #121B64;
-      
-        flex: none;
-        order: 0;
-        flex-grow: 0;
+        
+        align-self: stretch;
     }
 }

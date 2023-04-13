@@ -227,3 +227,91 @@
     }
 
 }
+@media screen and (max-width:375px) {
+    .frame100{
+        width: 100%;
+        height: 304px;
+        padding: 0;
+
+        order: 9;
+    }    
+    .frame294{
+        width: 327px;
+        height: 208px;
+        align-self: stretch;
+        flex-grow: 0;
+    }
+    .frame290{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 0px;
+        gap: 32px;
+        
+        width: 327px;
+        height: 136px;
+        
+        flex: none;
+        order: 0;
+        align-self: stretch;
+        flex-grow: 0;
+    }
+    .heading{
+        width: 155px;
+        height: 41px;
+        font-size: 32px;
+        line-height: 41px;
+        justify-content: center;
+        margin-left: 36px;
+    }
+    .subHeading{
+        width: 327px;
+        height: 63px;
+        font-size: 16px;
+        line-height: 21px;    
+        margin-left: 36px;    
+    }
+    .frame293{
+        width: 327px;
+        height: 40px;
+    }
+    .frame298{
+        gap: 52.42px;
+        margin-left: 8px;
+        margin-top: -80px;
+        width: 327px;
+        height: 40px;
+    }
+    .frame295{
+        width: 80px;
+        height: 40px;
+    }
+    .yourstory{
+        width: 76px;
+        height: 27.2px;
+        left: 1.87px;
+        top: 12.8px;
+    }
+    .frame296{
+        width: 80px;
+        height: 40px;
+    }
+    .news18{
+        width: 77.07px;
+        height: 30.93px;
+        left: 1.33px;
+        top: 9.07px;
+    }
+    .frame297{
+        width: 80px;
+        height: 40px;
+    }
+    .liveMint{
+        width: 81.6px;
+        height: 25.07px;
+        left: -0.8px;
+        top: 14.93px;
+    }
+
+}

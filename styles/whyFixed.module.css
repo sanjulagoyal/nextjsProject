@@ -175,7 +175,7 @@
     align-self: stretch;
     flex-grow: 0;
 }
-.frame282{
+.frame282,.frame283,.frame284{
     width: 56px;
     height: 56px;
  
@@ -230,14 +230,6 @@
     flex: none;
     order: 2;
     align-self: stretch;
-    flex-grow: 0;
-}
-.frame283{
-    width: 56px;
-    height: 56px;
-
-    flex: none;
-    order: 0;
     flex-grow: 0;
 }
 
@@ -297,5 +289,100 @@
         width: 773px;
         height: 184px;
     }
+}
+@media only screen and (max-width: 375px){
+    .hero{
+        justify-content: center;
+        height: 789px;
+    }
+    .frame288{
+        gap: 32px;
+        margin: 0;
+        
+        width: 327px;
+        height: 693px;
+        align-self: unset;
+    }
+    .frame285{        
+        width: 327px;
+        height: 115px;
+        justify-content: center;
+        margin-top: -10px;
+    }
+    .text{
+        width: 327px;
+        height: 41px;
+        
+        font-size: 32px;
+        line-height: 41px;
+        
+        text-align: center;
+        justify-content: center;
+        margin: 0;
+    }
+    .para{
+        width: 327px;
+        height: 42px;
 
+        font-size: 16px;
+        line-height: 21px;
+    }
+    .frame280{
+        width: 327px;
+        height: 546px;
+        margin: 0;
+        margin-left: -12px;
+    }
+    .frame277{
+        padding: 24px 8px;
+        gap: 16px;
+        
+        width: 327px;
+        height: 150px;
+    }
+    .frame281{
+        width: 311px;
+        height: 28px;
+    }
+    .frame282,.frame283,.frame284{
+        width: 28px;
+        height: 28px;
+     
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+    }
+    .paraSafe{
+        width: 263px;
+        height: 21px;
+
+        font-size: 16px;
+        line-height: 21px;
+    }
+    .line{
+        width: 311px;
+        height: 0px;
+    }
+    .txt1{
+        width: 311px;
+        height: 42px;
+        
+        font-size: 16px;
+        line-height: 21px;
+    }
+    .frame278{
+        padding: 24px 8px;
+        gap: 16px;
+        
+        width: 327px;
+        height: 150px;
+    }
+    .frame279{
+        padding: 24px 8px;
+        gap: 16px;
+        
+        width: 327px;
+        height: 164px;
+    }
+    
 }

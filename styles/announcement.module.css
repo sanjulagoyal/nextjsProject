@@ -75,25 +75,36 @@
       top: 18px;
     }
   }
-  @media only screen and(max-width: 375px){
+  @media only screen and (max-width: 375px){
     .frame263{
-      box-sizing: border-box;
-
-      display: flex;
-      flex-direction: row;
       justify-content: space-between;
-      align-items: center;
       padding: 10px 16px;
-      gap: 10px;
-      
-      width: 375px;
       height: 40px;
+    }
+    .img{
+      width: 20px;
+      height: 20px;
+
+      flex: none;
+      order: 0;
+      flex-grow: 0;
+    }
+    .sbi_fd_rate{
+      margin-left: -11px;
+      text-align: left;
+      height: 18px;
+      font-size: 14px;
+      line-height: 18px;
+    }
+    .take_action{
+      width: 69px;
+      height: 18px;
       
-      background: #F7F7F7;
-      backdrop-filter: blur(16px);
+      font-size: 14px;
+      line-height: 18px;
       
-      border-radius: 6px;
-     
+      text-align: right;
+    
       flex: none;
       order: 1;
       flex-grow: 0;
