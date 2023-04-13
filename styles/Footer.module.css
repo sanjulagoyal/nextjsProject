@@ -507,3 +507,104 @@
         flex-grow: 0;
     }
 }
+@media only screen and (max-width: 375px){
+    .frame99{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 687px;
+    }
+    .frame104{
+        gap: 8px;
+        margin: -190px 0px 0px 48px;
+        margin-left: -190px;
+        margin-top: 48px;
+        
+        width: 98px;
+        height: 142px;
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+    }
+    .frame105{
+        justify-content: center;
+        align-items: flex-start;
+        gap: 8px;
+        margin: 0;
+        margin-top: -166px;
+        margin-left: 184px;
+        
+        width: 104px;
+        height: 171px;
+        flex: none;
+        order: 1;
+        flex-grow: 0;
+    }
+    .line{
+        width: 327px;
+        height: 0px;
+        border: 1px solid #DFDEDE;
+        margin-left: 484px;
+        flex: none;
+        order: 2;
+        align-self: stretch;
+        flex-grow: 0;
+    }
+    .frame107{
+        gap: 8px;
+        margin: 0;
+        margin-left: 20px;
+        margin-top: -6px;
+        
+        width: 327px;
+        height: 113px; 
+
+        flex: none;
+        order: 1;
+        align-self: stretch;
+        flex-grow: 0;
+    }
+    .frame109{
+        gap: 16px;
+        margin: 0;
+        margin-top: 315px;
+        margin-left: -50px;
+        
+        width: 327px;
+        height: 123px;
+      
+        flex: none;
+        order: 1;
+        flex-grow: 1;
+        
+    }
+    .copyright{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 0;
+        margin-left: -60px;
+
+       
+        flex: none;
+        order: 12;
+        flex-grow: 0;
+    }
+    .frame101{
+        display: flex;
+        flex-direction: row;
+        align-items: flex-end;
+        padding: 0px;
+        gap: 24px;
+
+        margin-right: -50px;
+        margin-left: 130px;
+        
+        width: 120px;
+        height: 24px;
+     
+        flex: none;
+        order: 1;
+        flex-grow: 0;
+    }
+}
