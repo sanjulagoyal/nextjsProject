@@ -515,7 +515,7 @@
         height: 687px;
     }
     .frame104{
-        gap: 8px;
+        gap: 12px;
         margin: -190px 0px 0px 48px;
         margin-left: -190px;
         margin-top: 48px;
@@ -532,7 +532,7 @@
         gap: 8px;
         margin: 0;
         margin-top: -166px;
-        margin-left: 184px;
+        margin-left: 196px;
         
         width: 104px;
         height: 171px;
@@ -606,5 +606,85 @@
         flex: none;
         order: 1;
         flex-grow: 0;
+    }
+    .fd{
+        /* width: 67px; */
+        height: 21px;
+
+        font-size: 16px;
+        line-height: 21px;
+    }
+    .savings{
+        /* width: 69px; */
+        height: 21px;
+
+        font-size: 16px;
+        line-height: 21px;
+    }
+    .tax{
+        /* width: 61px; */
+        height: 21px;
+        font-size: 16px;
+        line-height: 21px;
+    }
+    .income{
+        /* width: 61px; */
+        height: 21px;
+        font-size: 16px;
+        line-height: 21px;
+    }
+    .about{
+        /* width: 58px; */
+        height: 21px;
+        font-size: 16px;
+        line-height: 21px;
+    }
+    .career{
+        width: 44px;
+        height: 21px;
+        font-size: 16px;
+        line-height: 21px;
+    }
+    .features{
+        width: 51px;
+        height: 21px;
+        font-size: 16px;
+        line-height: 21px;
+    }
+    .mission{
+        width: 48px;
+        height: 21px;
+        font-size: 16px;
+        line-height: 21px;
+    }
+    .support{
+        /* width: 104px; */
+        height: 21px;
+        font-size: 16px;
+        line-height: 21px;
+    }
+    .text1{
+        width: 342px;
+        height: 26px;
+        font-size: 20px;
+        line-height: 26px;
+    }
+    .text2{
+        width: 342px;
+        height: 42px;
+        font-size: 16px;
+        line-height: 21px;
+    }
+    .call{
+        width: 146px;
+        height: 21px;
+        font-size: 16px;
+        line-height: 21px;
+    }
+    .para{
+        width: 327px;
+        height: 63px;
+        font-size: 16px;
+        line-height: 21px;
     }
 }
